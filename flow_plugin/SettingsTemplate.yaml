@@ -1,0 +1,50 @@
+body:
+  - type: textBlock
+    attributes:
+      description: >-
+        Searches Markdown notes in a folder by the title and aliases in their
+        YAML header, and opens the URL from another header field. Field
+        settings may list several names separated by commas; the first one
+        present is used (aliases from all of them are combined).
+  - type: input
+    attributes:
+      name: folder
+      label: Bookmarks folder
+      defaultValue: ""
+      description: >-
+        Full path, e.g. C:\Users\you\Vault\Snippets. Leave empty to look for a
+        Snippets, Bookmarks or Clippings folder in your Obsidian vaults.
+  - type: checkbox
+    attributes:
+      name: recursive
+      label: Include sub-folders
+      defaultValue: "true"
+  - type: input
+    attributes:
+      name: title_field
+      label: Title field
+      defaultValue: title
+      description: Falls back to the note's file name when missing.
+  - type: input
+    attributes:
+      name: aliases_field
+      label: Aliases field
+      defaultValue: aliases
+  - type: input
+    attributes:
+      name: url_field
+      label: URL field
+      defaultValue: source
+  - type: dropdown
+    attributes:
+      name: without_url
+      label: Notes without a URL
+      defaultValue: Open in Obsidian
+      options:
+        - Open in Obsidian
+        - Hide
+  - type: input
+    attributes:
+      name: max_results
+      label: Maximum results
+      defaultValue: "30"

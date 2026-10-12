@@ -1,0 +1,12 @@
+{
+  "ID": "6b906449-9948-4bc4-91e1-db1a34f507d0",
+  "ActionKeyword": "obs",
+  "Name": "Obsidian Bookmarks",
+  "Description": "Search Obsidian bookmark notes by YAML title or aliases and open their source URL",
+  "Author": "SNTag",
+  "Version": "1.0.0",
+  "Language": "python",
+  "Website": "https://github.com/SNTag/TagOS-Launcher",
+  "IcoPath": "Images\\icon.png",
+  "ExecuteFileName": "main.py"
+}

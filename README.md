@@ -2,6 +2,9 @@
 
 A vibe-coded Windows launcher that integrates my Obsidian setup.
 
+> **Using Flow Launcher instead?** [`flow_plugin/`](flow_plugin/README.md) is a
+> Flow Launcher plugin that does the `obs` bookmark search on its own.
+
 Press a hotkey (**Ctrl+Alt+Space** by default) and a command box pops up over
 whatever you're doing. Type to switch windows across virtual desktops, or use
 a command such as `obs:` to search your Obsidian bookmarks. The rest of the
