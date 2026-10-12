@@ -1,0 +1,10 @@
+name: TagOS Launcher
+description: >-
+  Hotkey launcher (Ctrl+Alt+Space by default): switch windows across virtual
+  desktops, obs: searches Obsidian bookmarks. Lives in the tray; right-click
+  the tray icon for Settings.
+tags:
+  - launcher
+  - obsidian
+  - service
+author: SNTag

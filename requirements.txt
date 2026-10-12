@@ -1,0 +1,5 @@
+PySide6>=6.6
+PyYAML>=6.0
+# Optional but recommended on Windows: lets the launcher jump straight to a
+# window on another virtual desktop and pull windows onto the current one.
+pyvda>=0.5; sys_platform == "win32"
