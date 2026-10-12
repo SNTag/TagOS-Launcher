@@ -35,7 +35,7 @@ open in Obsidian, unless you choose to hide them.
 2. Restart Flow Launcher. If it asks about Python, let it download its own
    copy, or point it at yours under **Settings → General → Python path**.
 3. **Settings → Plugins → Obsidian Bookmarks**:
-   - **Bookmarks folder** — e.g. `C:\Users\you\Vault\Snippets`. Leave it empty
+   - **Bookmarks folder** (has a Browse button) — e.g. `C:\Users\you\Vault\Snippets`. Leave it empty
      to use a `Snippets`, `Bookmarks` or `Clippings` folder found in your
      Obsidian vaults.
    - **Title / Aliases / URL field** — the YAML header names to read. List

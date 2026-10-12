@@ -6,7 +6,7 @@ body:
         YAML header, and opens the URL from another header field. Field
         settings may list several names separated by commas; the first one
         present is used (aliases from all of them are combined).
-  - type: input
+  - type: inputWithFolderBtn
     attributes:
       name: folder
       label: Bookmarks folder
@@ -18,7 +18,7 @@ body:
     attributes:
       name: recursive
       label: Include sub-folders
-      defaultValue: "true"
+      defaultValue: true
   - type: input
     attributes:
       name: title_field
